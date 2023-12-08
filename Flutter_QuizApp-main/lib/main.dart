@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Quiz App Ayush_20221462',
+      title: 'Quiz App Simran_20221438',
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
@@ -37,35 +37,55 @@ class _QuizPageState extends State<QuizPage> {
 
   final List<Map<String, dynamic>> _questions = [
     {
-      "question": "Which operating system is developed by Apple Inc.??",
-      "options": ["Android", "Windows", "Linux", "ios"],
-      "answer": "ios",
+      "question": "In a breadth-first search (BFS) traversal of a graph, which data structure is typically used?",
+      "options": ["Stack", "Queue", "Array", "Linked List"],
+      "answer": "Queue",
     },
     {
-      "question": "Visual Studio Code (VS Code) is developed by?",
-      "options": ["Apple", "Google", "Microsoft", "Meta"],
-      "answer": "Microsoft",
+      "question": "What is the time complexity of binary search in a sorted array?"
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+      "answer": "O(log n)",
     },
     {
-      "question": "Parent company of Google?",
-      "options": ["Netflix", "Amazon", "Alphabet", "IBM"],
-      "answer": "Alphabet",
+      "question": "What is the purpose of a hash table in data structures?",
+      "options": ["Sorting elements", "Searching for an element", "Storing key-value pairs for efficient retrieval", " Implementing recursion"],
+      "answer": "Storing key-value pairs for efficient retrieval",
     },
     {
-      "question": "Who launched Unified Payments Interface (UPI)?",
-      "options": [
-        " Reserve Bank of India (RBI)",
-        "National Payments Corporation of India (NPCI)",
-        "Ministry of Finance",
-        "State Bank of India (SBI)"
-      ],
-      "answer": " National Payments Corporation of India (NPCI)",
+      "question": "What is the time complexity of the quicksort algorithm in the average case?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+      "answer": "O(log n)",
     },
     {
-      "question": "India's first UPI-ATM was launched by?",
-      "options": ["Google", "Jio", "Airtel", "Hitachi Payment Services"],
-      "answer": "Hitachi Payment Services",
+      "question": "What is the main advantage of using a linked list over an array?",
+      "options": ["Constant time access to elements", "Dynamic size", "Better cache locality", "Efficient for sorting"], 
+      "answer": "Dynamic size",
     },
+    {
+      "question": "Which sorting algorithm has a quadratic time complexity in the worst case?",
+      "options": ["QuickSort", "MergeSort", "BubbleSort", "InsertionSort"], 
+      "answer": "BubbleSort",
+    }
+    {
+      "question": "What is the purpose of a stack in data structures?",
+      "options": ["Storing elements with constant time access", "Implementing recursion", "Searching for an element", "Efficiently retrieving the minimum element"], 
+      "answer": "Implementing recursion",
+    }
+    {
+      "question": "What is a binary tree?",
+      "options": ["A tree where each node has more than two children", "A tree with exactly two children for each node", "A tree without any children", "A tree with arbitrary connections between nodes"], 
+      "answer": "A tree with exactly two children for each node",
+    }
+    {
+      "question": "What is the role of the "Big-O" notation in algorithm analysis?"
+      "options": [" Representing the best-case scenario", "Representing the worst-case time complexity", "Describing the average-case time complexity", "Measuring the size of the input data"], 
+      "answer": "Representing the worst-case time complexity",
+    }
+    {
+      "question": "What is the purpose of dynamic programming in algorithms?"
+      "options": ["Divide and conquer", "Memorization to avoid redundant computations", "Sorting elements", "Searching for an element"], 
+      "answer": "Memorization to avoid redundant computations",
+    }
   ];
 
   void _checkAnswer(String option) {
