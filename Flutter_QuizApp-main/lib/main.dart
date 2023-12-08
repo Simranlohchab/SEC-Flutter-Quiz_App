@@ -4,8 +4,8 @@ void main() {
   runApp(const MyApp());
 }
 
-const primaryColor = Colors.teal;
-const accentColor = Colors.teal;
+const primaryColor = Colors.green;
+const accentColor = Colors.green;
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
